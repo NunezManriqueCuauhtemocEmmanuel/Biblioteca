@@ -6,8 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biblioteca</title>
     <link rel="stylesheet" href="./css/inicio.css">
+    <link rel="shortcut icon" href="img/logoSpektre.svg" >
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
 </head>
 <body>
-    <p>Inicio</p>
+    <section>
+        <!-- Slider main container -->
+        <div class="swiper">
+        <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+          <!-- Slides -->
+                <div class="swiper-slide">Diagramas de Flujo</div>
+                <div class="swiper-slide">Diagramas de Clases</div>
+                <div class="swiper-slide">Diagramas de Casos de Uso</div>
+                <div class="swiper-slide">Diagramas de Actividades</div>
+                <div class="swiper-slide">Diagramas de Secuencia</div>
+                <div class="swiper-slide">Proximamente</div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+      
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+      
+            <!-- If we need scrollbar -->
+            <!-- <div class="swiper-scrollbar"></div> -->
+        </div>
+    </section>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="./js/app.js"></script>
 </body>
 </html>
