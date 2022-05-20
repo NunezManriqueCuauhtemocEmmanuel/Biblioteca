@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagrama de Casos de uso</title>
+    <link rel="stylesheet" href="../css/paginas/diagramaCU.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+    <section>
+        <!-- Slider main container -->
+        <div class="swiper">
+        <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+          <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="portada">
+                        <h1>Diagrama de casos de uso</h1>
+                        <a href="../index.html">
+                            <div class="btnV">
+                                <h5>Volver</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <h4>¿Qué son?</h4>
+                    <div class="container">
+                        <div class="texto">
+                            <p>El diagrama de casos de uso es una forma de diagrama de comportamiento en lenguaje de modelado unificado 
+                                (UML, del inglés Unified Modelling Language), con la que se representan procesos empresariales
+                                , así como sistemas y procesos de programación orientada a objetos.
+                            </p>
+                            <p>El diagrama de casos de uso también pertenece a este último grupo, pero se 
+                                trata de un modelo particular, porque muestra el comportamiento que se espera 
+                                de un sistema o software en un caso de uso concreto. En comparación con el resto 
+                                de diagramas de comportamiento en UML, el diagrama de casos de uso es bastante estático, ya que solo puede emplearse 
+                                para describir acciones y objetivos, pero no la secuencia exacta de procesos y acciones. 
+                            </p>
+                        </div>
+                        <div class="img">
+                            <img src="https://support.content.office.net/es-es/media/1dfd1d70-ab34-470c-b1da-7e00e98c2c70.png" width="90%">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <h4>Elementos y estructura del diagrama de casos de uso</h4>
+                    <div class="container">
+                        <div class="img">
+                            <img src="https://ingsotfwarekarlacevallos.files.wordpress.com/2015/07/esta.png" width="90%">
+                        </div>
+                        <div class="texto">
+                            <p>Para garantizar que el diagrama de casos de uso sea comprensible para todo el mundo de un vistazo, se utilizan elementos 
+                                estandarizados para elaborarlo. En primer lugar, hay tres elementos principales:
+                            </p>
+                            <ul>
+                                <li><span>Actor</span>: tanto si es una persona, como un sistema, se representa con el dibujo de una figura humana esquemática.</li>
+                                <li><span>Sistema</span>: el sistema al que se refiere el caso de uso tiene forma de rectángulo..</li>
+                                <li><span>Caso de uso</span>: se muestra como una elipse que suele incluir un texto describiendo brevemente el proceso.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <h4>Elementos y estructura del diagrama de casos de uso</h4>
+                    <div class="container">
+                        <div class="texto">
+                            <p>La relación entre estos elementos se representa con unas líneas de conexión llamadas 
+                                asociaciones. Una línea recta entre el actor y el caso de uso evidencia que el actor 
+                                y el caso de uso descrito en la elipse están relacionados. Una línea discontinua establece
+                                una relación entre diferentes casos de uso.
+                            </p>
+                            <ul>
+                                <li><span>Asociación <></span>: el caso de uso en el cual comienza la línea discontinua se relaciona con un segundo caso de uso señalado por la punta de la flecha.</li>
+                                <li><span>Asociación <></span>: el caso de uso en el cual comienza la línea discontinua puede extenderse al caso de uso señalado por la punta de la flecha 
+                                    bajo ciertas condiciones, que no han de cumplirse necesariamente en todos los casos.</li>
+                            </ul>
+                        </div>
+                        <div class="img">
+                            <img src="data:image/png;base64,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" width="90%">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <h4>Ejemplo</h4>
+                    <div class="container">
+                        <p>En nuestro ejemplo, el cajero automático es el sistema; el cliente del banco, 
+                            el actor que va a utilizarlo, y el caso de uso, “sacar dinero”. Este último 
+                            se relaciona con otros dos casos de uso mediante asociaciones de inclusión, a saber, 
+                            “autenticación” y “control de PIN y cuenta”. Si la autenticación no es válida, 
+                            no se atenderá la solicitud del cliente. Para que los intentos del cliente no se 
+                            repitan de manera indefinida, el cajero debe retener la tarjeta cuando el PIN se 
+                            introduce incorrectamente tres veces. Por lo tanto, para el caso de uso de la 
+                            “autenticación”, se define un punto de extensión con la condición “PIN incorrecto 
+                            tres veces”. Si se cumple esta condición, se ejecuta el caso de uso de “retener tarjeta”, 
+                            relacionado con el caso de uso de la “autenticación” mediante una asociación de tipo 
+                            extend. Con todos estos elementos, 
+                            nuestro diagrama de casos de uso tendría este aspecto:
+                        </p>
+                    </div>
+                    <div class="img">
+                        <img src="https://www.ionos.mx/digitalguide/fileadmin/DigitalGuide/Screenshots_2020/use-case-diagram-example-for-the-withdraw-money-use-case.png" width="90%">
+                    </div>
+                </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+      
+            <!-- If we need navigation buttons -->
+      
+            <!-- If we need scrollbar -->
+            <!-- <div class="swiper-scrollbar"></div> -->
+        </div>
+    </section>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="../js/biblioteca.js"></script>
+</body>
+</html>

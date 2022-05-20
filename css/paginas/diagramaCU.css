@@ -24,25 +24,57 @@ section h2{
 .swiper {
     padding-top: 50px;
     padding-bottom: 50px;
-    width: 30%;
-    height: 500px;
+    width: 70%;
+    height: 600px;
     text-align: center;
 }
 .swiper-slide{
-    background-image: linear-gradient(to left top, #7e8da3, #a0a8b9, #c1c3d0, #e0e1e7, #ffffff);
+    font-weight: 400;
+    background: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border-radius: 10px;
+    border-radius: 20px;
     transition: 0.5s linear;
     box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.5);
 }
 .swiper-slide img{
     transition: 0.5s;
 }
-.swiper-slide img:hover{
-    transform: scale(1.2);
+.swiper-slide p{
+    padding: 20px;
+    text-align: justify;
+}
+.portada{
+    flex-direction: column;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: rgb(142, 52, 3);
+}
+.portada1{
+    flex-direction: column;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: #032f8e;
+}
+.portada2{
+    flex-direction: column;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: rgb(3, 82, 142);
 }
 .titulo{
     color: rgb(249, 251, 255);
@@ -116,3 +148,46 @@ section h2{
     background: rgb(19, 86, 7);
 }
 
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img{
+    width: 50%;
+}
+.texto{
+    width: 50%;
+}
+h4{
+    color: rgb(142, 52, 3);
+    font-size: 30px;
+    padding: 20px;
+}
+ul{
+    padding: 0 40px;
+    text-align: justify;
+}
+span{
+    font-weight: bolder;
+}
+.btnV{
+    margin-top: 50px;
+    background: #ffffff;
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.1s linear;
+    color: #000000;
+}
+.btnV:hover{
+    background: #eaeaea;
+}
+.blue{
+    color: #032f8e;
+}
+.cyan{
+    color: rgb(3, 82, 142);
+}
